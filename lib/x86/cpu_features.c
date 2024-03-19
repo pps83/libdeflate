@@ -129,8 +129,8 @@ allow_512bit_vectors(const u32 manufacturer[3], u32 family, u32 model)
 	case 106: /* Ice Lake (Server) */
 	case 108: /* Ice Lake (Server) */
 	case 126: /* Ice Lake (Client) */
-	case 140: /* Tiger Lake */
-	case 141: /* Tiger Lake */
+	// case 140: /* Tiger Lake */
+	// case 141: /* Tiger Lake */
 		return false;
 	}
 	return true;
